@@ -28,3 +28,28 @@
    
     color: white;
   }
+
+.navbar{
+  align-content: center;
+  padding: 0%;
+  border: 1px solid yellowgreen;
+  border-radius: 10px;
+  max-width: 80%;
+  ;
+}
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+list-style-type: none;
+padding: 1vw;
+margin-left: 15%;
+}
+
+.navbar{
+  text-decoration: none;
+  color: aqua;
+  font-size: 100%;
+  
+}

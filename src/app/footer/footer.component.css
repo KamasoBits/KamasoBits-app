@@ -1,8 +1,15 @@
 .footer{
-    position: fixed;
+    position: sticky;
+    top:100%;
     bottom: 0%;
     background-color: cadetblue;
-    padding: 0%;
+    padding: 15px 20px;
     width: 100%;
     height: auto;
+    overflow: hidden;
+    text-align: right;
+}
+li{
+    padding: o.5rem;
+    list-style: none;
 }
