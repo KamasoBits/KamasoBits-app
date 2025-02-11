@@ -1,18 +1,29 @@
+/* company name & logo edits */
+.coname{
+  font-size: 30px;
+  font-family:cursive;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(15, 2, 27);
+}
 .example-spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 
-/* Add a black background color to the top navigation */
+/* top navigation styles */
   .topnav {
-    font-style: italic;
-    background-color: #fff;
+    font-style:italic;
+    font-family: cursive;
+    font-stretch: extra-condensed;
+    font-size: 15;
     overflow: hidden;
+    padding-bottom: 0%;
+
   }
 
 /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #da5b21;
+    color: #020203;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,8 +31,9 @@
   }
 /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #d4872f;
-    color: black;
+    background-color: #0a0629;
+    color: rgb(216, 221, 236);
+    border-radius: 20px;
   }
 /* Add a color to the active/current link */
   .topnav a.active {
@@ -29,27 +41,4 @@
     color: white;
   }
 
-.navbar{
-  align-content: center;
-  padding: 0%;
-  border: 1px solid yellowgreen;
-  border-radius: 10px;
-  max-width: 80%;
-  ;
-}
-.navbar ul{
-  display: flex;
-}
 
-.navbar ul li{
-list-style-type: none;
-padding: 1vw;
-margin-left: 15%;
-}
-
-.navbar{
-  text-decoration: none;
-  color: aqua;
-  font-size: 100%;
-  
-}

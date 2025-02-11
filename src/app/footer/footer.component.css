@@ -2,14 +2,20 @@
     position: sticky;
     top:100%;
     bottom: 0%;
-    background-color: cadetblue;
+    background-color: rgb(3, 20, 20);
     padding: 15px 20px;
-    width: 100%;
+    width: auto;
     height: auto;
     overflow: hidden;
     text-align: right;
+    color: gainsboro;
+    font-family: cursive;
 }
 li{
     padding: o.5rem;
     list-style: none;
+}
+.vl{
+    border-left: 1px solid white;
+    height: 150px;
 }

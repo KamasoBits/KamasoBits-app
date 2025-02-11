@@ -1,4 +1,16 @@
-background{
-    background-size: cover;
-    background-position: center center;
+.header-background{
+    display: grid;
+    background-color: aliceblue;
+    padding-top: 0%;
+    height: 350px;
+    font-size: 20px;
+    font-family:cursive;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(15, 2, 27);
+}
+
+.header-headline{
+text-align: center;
+color: #0a0629;
+
 }
