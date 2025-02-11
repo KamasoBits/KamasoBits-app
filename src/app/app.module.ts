@@ -8,6 +8,9 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
+import { OurpacakgesComponent } from './ourpacakges/ourpacakges.component';
 
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
@@ -16,7 +19,10 @@ import { HomeComponent } from './home/home.component';
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsComponent,
+    AboutusComponent,
+    OurpacakgesComponent
   ],
   imports: [
     MatToolbarModule,
