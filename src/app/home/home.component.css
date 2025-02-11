@@ -1,8 +1,10 @@
 .header-background{
+ 
     display: grid;
     background-color: aliceblue;
     padding-top: 0%;
-    height: 350px;
+    align-items: center;
+    height: 400px;
     font-size: 20px;
     font-family:cursive;
     color: transparent;
@@ -10,7 +12,9 @@
 }
 
 .header-headline{
-text-align: center;
-color: #0a0629;
+    justify-content: center;
+    text-align: center;
+    color: #0a0629;
+
 
 }

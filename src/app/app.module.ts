@@ -1,6 +1,7 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
@@ -11,6 +12,11 @@ import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { OurpacakgesComponent } from './ourpacakges/ourpacakges.component';
+import {MatCardModule} from '@angular/material/card'; 
+import {MatGridListModule} from '@angular/material/grid-list'; 
+
+
+
 
 @NgModule({
   schemas:[CUSTOM_ELEMENTS_SCHEMA],
@@ -27,8 +33,12 @@ import { OurpacakgesComponent } from './ourpacakges/ourpacakges.component';
   imports: [
     MatToolbarModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatGridListModule
+    
   ],
+
   providers: [
     provideClientHydration(withEventReplay()),
     provideAnimationsAsync()
@@ -36,3 +46,5 @@ import { OurpacakgesComponent } from './ourpacakges/ourpacakges.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

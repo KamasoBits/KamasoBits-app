@@ -1,0 +1,19 @@
+
+.h1{
+  font-size: 20px;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(15, 2, 27);
+}
+.package-card {
+  align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 400px;
+    background-color: transparent;
+  border: 1px solid #f1f1f1;
+  }
+  
+ 

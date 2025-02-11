@@ -1,0 +1,7 @@
+
+  .h1{
+    font-size: 20px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(15, 2, 27);
+  }

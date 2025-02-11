@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+
+
+
+
 @Component({
   selector: 'app-aboutus',
   standalone: false,
@@ -7,6 +11,11 @@ import { Component } from '@angular/core';
   templateUrl: './aboutus.component.html',
   styleUrl: './aboutus.component.css'
 })
+
+
+
+
 export class AboutusComponent {
 
 }
+
