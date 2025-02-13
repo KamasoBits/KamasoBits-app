@@ -14,6 +14,9 @@ import { AboutusComponent } from './aboutus/aboutus.component';
 import { OurpacakgesComponent } from './ourpacakges/ourpacakges.component';
 import {MatCardModule} from '@angular/material/card'; 
 import {MatGridListModule} from '@angular/material/grid-list'; 
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
+
+
 
 
 
@@ -35,7 +38,10 @@ import {MatGridListModule} from '@angular/material/grid-list';
     BrowserModule,
     AppRoutingModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    RouterLink,
+    RouterOutlet,RouterLinkActive,
+   
     
   ],
 
