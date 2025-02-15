@@ -5,3 +5,13 @@
     color: transparent;
     -webkit-text-stroke: 1px rgb(15, 2, 27);
   }
+  .aboutus{
+ 
+    display: grid;
+    background-color: rgb(232, 243, 243);
+    padding-top: 0%;
+    height: 400px;
+    font-size: 20px;
+    font-family:cursive;
+   
+}

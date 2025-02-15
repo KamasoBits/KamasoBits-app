@@ -1,16 +1,30 @@
+
 .header-background{
- 
     display: grid;
     background-color: aliceblue;
     padding-top: 0%;
     align-items: center;
-    height: 400px;
+    height: 600px;
     font-size: 20px;
     font-family:cursive;
     color: transparent;
     -webkit-text-stroke: 1px rgb(15, 2, 27);
 }
-
+.button {
+    background-color: #879e82;
+    border: none;
+    border-radius:50px;
+    color: rgb(0, 0, 0);
+   width: 140px;
+   height: 35px;
+   padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+   
+    cursor: pointer;
+  }
 .header-headline{
     justify-content: center;
     text-align: center;

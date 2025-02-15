@@ -2,18 +2,86 @@
 .h1{
   font-size: 20px;
   text-align: center;
+  align-items: center;
   color: transparent;
   -webkit-text-stroke: 1px rgb(15, 2, 27);
 }
-.package-card {
-  align-content: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    max-width: 400px;
-    background-color: transparent;
-  border: 1px solid #f1f1f1;
+.ourpackages{
+ 
+  display: grid;
+  background-color: rgb(233, 232, 238);
+  padding-top: 0%;
+  height: 500px;
+  font-size: 20px;
+  font-family:cursive;
+ 
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 31%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 15px;
+  background-color: rgb(206, 214, 91);
+}
+
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.title {
+  color: grey;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #350303;
+  text-align: center;
+  font-style: italic;
+  font-family: cursive;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 30px;
+ 
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
   }
+}
   
  
