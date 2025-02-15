@@ -1,17 +1,24 @@
 
-  .h1{
-    font-size: 20px;
-    text-align: center;
-    color: transparent;
-    -webkit-text-stroke: 1px rgb(15, 2, 27);
-  }
+  
   .aboutus{
  
     display: grid;
     background-color: rgb(232, 243, 243);
     padding-top: 0%;
-    height: 400px;
+    height: 500px;
     font-size: 20px;
     font-family:cursive;
+    text-align: center;
    
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 0%;
+}
+.container > div {
+  
+  padding: 0%;
+  font-size: 15px;
+  text-align: center;
 }

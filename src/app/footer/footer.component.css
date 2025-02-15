@@ -11,11 +11,14 @@
     color: gainsboro;
     font-family: cursive;
 }
-li{
-    padding: o.5rem;
-    list-style: none;
-}
-.vl{
-    border-left: 1px solid white;
-    height: 150px;
-}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1px;
+  }
+  .container > div {
+    
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+  }
