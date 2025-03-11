@@ -16,6 +16,7 @@
 
 .anchor{
   position:absolute;
+  
 }
 .item{
   margin-bottom:20px;
@@ -25,10 +26,10 @@
 
 
 .nav-4 .linktext{
-  font-size:1.3em;
+  font-size:1em;
   text-align:center;
   position:relative;
-  z-index:2;
+  z-index:1;
   color:#051104;
   text-decoration:none;
   font-family: 'Righteous', Arial, sans-serif;
