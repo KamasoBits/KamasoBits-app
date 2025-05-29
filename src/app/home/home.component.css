@@ -101,7 +101,7 @@
     color: transparent;
     
 }
-.button {
+.btn btn-primary{
     background-color: #c6d3d8;
     border: none;
     border-radius:10px 50px 30px ;
